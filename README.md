@@ -4,13 +4,14 @@ Project Overview:
 This project is for excercising on persian texts (nlp).
 
 Dataset:
-The data used in this excercise is in ... file including 4 files of persian texts.
+The data used in this excercise is in 5 files including persian texts.
+there are also a file of persian stop words and a file for pos_tagging.
 
 Methodology:
-The data is preprocessed by converting the text of the files into numerical features with different methods such as BOW , TF_IDF and onehot-encoding.
+The data is preprocessed by converting the text of the files into numerical features with different methods such as BOW , TF_IDF and onehot-encoding with the help of removing persian stop words and pos_tagger.
 there is also some working with different n_grams done in the code.
 
-Requirements:
+library requirements:
 
     nltk
     hazm (a library for working on persian text)
